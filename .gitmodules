@@ -1,0 +1,3 @@
+[submodule "monetio"]
+	path = monetio
+	url = https://github.com/noaa-oar-arl/monetio
