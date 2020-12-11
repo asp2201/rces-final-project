@@ -1,0 +1,126 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six"
+  ],
+  "extracted_package_dir": "/srv/conda/pkgs/configobj-5.0.6-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/_version.py",
+    "lib/python3.7/site-packages/configobj-5.0.6-py2.7.egg-info/PKG-INFO",
+    "lib/python3.7/site-packages/configobj-5.0.6-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.7/site-packages/configobj-5.0.6-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.7/site-packages/configobj-5.0.6-py2.7.egg-info/installed-files.txt",
+    "lib/python3.7/site-packages/configobj-5.0.6-py2.7.egg-info/requires.txt",
+    "lib/python3.7/site-packages/configobj-5.0.6-py2.7.egg-info/top_level.txt",
+    "lib/python3.7/site-packages/configobj.py",
+    "lib/python3.7/site-packages/validate.py",
+    "lib/python3.7/site-packages/__pycache__/_version.cpython-37.pyc",
+    "lib/python3.7/site-packages/__pycache__/configobj.cpython-37.pyc",
+    "lib/python3.7/site-packages/__pycache__/validate.cpython-37.pyc"
+  ],
+  "fn": "configobj-5.0.6-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/srv/conda/pkgs/configobj-5.0.6-py_0",
+    "type": 1
+  },
+  "md5": "e46ba874295e2eda5593650895777913",
+  "name": "configobj",
+  "noarch": "python",
+  "package_tarball_full_path": "/srv/conda/pkgs/configobj-5.0.6-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/_version.py",
+        "path_type": "hardlink",
+        "sha256": "2a9eec47870e0d13e2ee50600eefaad1b755848f72d922793b44b20e9509b971",
+        "sha256_in_prefix": "2a9eec47870e0d13e2ee50600eefaad1b755848f72d922793b44b20e9509b971",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/configobj-5.0.6-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "082a24bdca77f3477c9b8e779357a85208d6013856f634c67afb17822b1c90fb",
+        "sha256_in_prefix": "082a24bdca77f3477c9b8e779357a85208d6013856f634c67afb17822b1c90fb",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "site-packages/configobj-5.0.6-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d275173ee3fca6e8dc4b4f4e1cbbf34cc76e299013d70e880f8cdff25d63c312",
+        "sha256_in_prefix": "d275173ee3fca6e8dc4b4f4e1cbbf34cc76e299013d70e880f8cdff25d63c312",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "site-packages/configobj-5.0.6-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/configobj-5.0.6-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "7e9d0d3aac227a3de5214fe64a877b054df4e12318237a74f1327aa78780388d",
+        "sha256_in_prefix": "7e9d0d3aac227a3de5214fe64a877b054df4e12318237a74f1327aa78780388d",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "site-packages/configobj-5.0.6-py2.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+        "sha256_in_prefix": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/configobj-5.0.6-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ef524cf02972d2330aa61d5db4bf8e03f4b1344e9c2a6023d2250b06476c0158",
+        "sha256_in_prefix": "ef524cf02972d2330aa61d5db4bf8e03f4b1344e9c2a6023d2250b06476c0158",
+        "size_in_bytes": 28
+      },
+      {
+        "_path": "site-packages/configobj.py",
+        "path_type": "hardlink",
+        "sha256": "cc0036f344b5292e8d0655812ba2a837f4368245b52d5db05e0a9c531a34ee15",
+        "sha256_in_prefix": "cc0036f344b5292e8d0655812ba2a837f4368245b52d5db05e0a9c531a34ee15",
+        "size_in_bytes": 89627
+      },
+      {
+        "_path": "site-packages/validate.py",
+        "path_type": "hardlink",
+        "sha256": "54ffdb3ec781fc8dcdc7a3b38c60dfb1e8a4f4e2092d2bb23de6ea95bb934130",
+        "sha256_in_prefix": "54ffdb3ec781fc8dcdc7a3b38c60dfb1e8a4f4e2092d2bb23de6ea95bb934130",
+        "size_in_bytes": 47237
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/_version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/configobj.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/validate.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bb2b21393ad3d38b204adeda891401ab41f5696505631eff9aeca859e5b27770",
+  "size": 32237,
+  "subdir": "noarch",
+  "timestamp": 1532878902228,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/configobj-5.0.6-py_0.tar.bz2",
+  "version": "5.0.6"
+}

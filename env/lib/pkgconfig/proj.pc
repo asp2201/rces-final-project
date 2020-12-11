@@ -1,0 +1,14 @@
+prefix=/home/jovyan/rces-final-project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}/proj
+
+Name: PROJ
+Description: Coordinate transformation software library
+Requires:
+Version: 7.1.1
+Libs: -L${libdir} -lproj
+Libs.private: -L/home/jovyan/rces-final-project/env/lib -lsqlite3 -L/home/jovyan/rces-final-project/env/lib -ltiff -L/home/jovyan/rces-final-project/env/lib -lcurl -lstdc++
+Cflags: -I${includedir}

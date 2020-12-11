@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.3
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/home/jovyan/rces-final-project/env/include
+Libs: -L/home/jovyan/rces-final-project/env/lib -lecpg_compat
+Libs.private: -L/home/jovyan/rces-final-project/env/lib -lm

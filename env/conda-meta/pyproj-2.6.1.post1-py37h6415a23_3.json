@@ -1,0 +1,439 @@
+{
+  "build": "py37h6415a23_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "proj >=7.1.1,<7.1.2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "extracted_package_dir": "/srv/conda/pkgs/pyproj-2.6.1.post1-py37h6415a23_3",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/LICENSE",
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/METADATA",
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/RECORD",
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/WHEEL",
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/pyproj/__init__.py",
+    "lib/python3.7/site-packages/pyproj/__main__.py",
+    "lib/python3.7/site-packages/pyproj/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/__main__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/_show_versions.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/datadir.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/enums.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/exceptions.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/geod.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/proj.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/transformer.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/_crs.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pyproj/_datadir.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pyproj/_geod.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pyproj/_list.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pyproj/_proj.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pyproj/_show_versions.py",
+    "lib/python3.7/site-packages/pyproj/_transformer.cpython-37m-x86_64-linux-gnu.so",
+    "lib/python3.7/site-packages/pyproj/compat.py",
+    "lib/python3.7/site-packages/pyproj/crs/__init__.py",
+    "lib/python3.7/site-packages/pyproj/crs/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/crs/__pycache__/_cf1x8.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/crs/__pycache__/coordinate_operation.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/crs/__pycache__/coordinate_system.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/crs/__pycache__/crs.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/crs/__pycache__/datum.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/crs/__pycache__/enums.cpython-37.pyc",
+    "lib/python3.7/site-packages/pyproj/crs/_cf1x8.py",
+    "lib/python3.7/site-packages/pyproj/crs/coordinate_operation.py",
+    "lib/python3.7/site-packages/pyproj/crs/coordinate_system.py",
+    "lib/python3.7/site-packages/pyproj/crs/crs.py",
+    "lib/python3.7/site-packages/pyproj/crs/datum.py",
+    "lib/python3.7/site-packages/pyproj/crs/enums.py",
+    "lib/python3.7/site-packages/pyproj/datadir.py",
+    "lib/python3.7/site-packages/pyproj/enums.py",
+    "lib/python3.7/site-packages/pyproj/exceptions.py",
+    "lib/python3.7/site-packages/pyproj/geod.py",
+    "lib/python3.7/site-packages/pyproj/proj.py",
+    "lib/python3.7/site-packages/pyproj/transformer.py",
+    "lib/python3.7/site-packages/pyproj/utils.py"
+  ],
+  "fn": "pyproj-2.6.1.post1-py37h6415a23_3.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/srv/conda/pkgs/pyproj-2.6.1.post1-py37h6415a23_3",
+    "type": 1
+  },
+  "md5": "4b275f26d95fca04ee08a73ecd565fd6",
+  "name": "pyproj",
+  "package_tarball_full_path": "/srv/conda/pkgs/pyproj-2.6.1.post1-py37h6415a23_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cd0b29a4b233b4a8882f9ebdfcd6177da0295dd04af39b3af0adfdefda7ca57d",
+        "sha256_in_prefix": "cd0b29a4b233b4a8882f9ebdfcd6177da0295dd04af39b3af0adfdefda7ca57d",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5d3d009e89b3e0bbf42044ce53af9140147d0edfda0ff9814b1ed85e45d1c987",
+        "sha256_in_prefix": "5d3d009e89b3e0bbf42044ce53af9140147d0edfda0ff9814b1ed85e45d1c987",
+        "size_in_bytes": 18435
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7d2443f36c6fd0bcc665fe4cd6d4ed8f3083eecfb38e9a0fd6e816fee1c54630",
+        "sha256_in_prefix": "7d2443f36c6fd0bcc665fe4cd6d4ed8f3083eecfb38e9a0fd6e816fee1c54630",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae3b3475b2edebabfc9a339f09b47eba3e54b2097638b025991742132368d0be",
+        "sha256_in_prefix": "ae3b3475b2edebabfc9a339f09b47eba3e54b2097638b025991742132368d0be",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "dc241a942b62924d97a43c26ae06d7c80fb65e7daece401a4bf77ce9cc9cfd1d",
+        "sha256_in_prefix": "dc241a942b62924d97a43c26ae06d7c80fb65e7daece401a4bf77ce9cc9cfd1d",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj-2.6.1.post1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d4337e6e4f28c268b5c035332fbbc72a0a9d533d0387d38eb05338a2ea5e65bb",
+        "sha256_in_prefix": "d4337e6e4f28c268b5c035332fbbc72a0a9d533d0387d38eb05338a2ea5e65bb",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9893bdf73c20d6f55e6258826a56639b8cf0997a7e4efc836a5dfa2ac12aca8f",
+        "sha256_in_prefix": "9893bdf73c20d6f55e6258826a56639b8cf0997a7e4efc836a5dfa2ac12aca8f",
+        "size_in_bytes": 2471
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "6f8d7c323f841f66ba03aec4a2784bc68bfdbeb8eca73d5c6767889a1e9f41ce",
+        "sha256_in_prefix": "6f8d7c323f841f66ba03aec4a2784bc68bfdbeb8eca73d5c6767889a1e9f41ce",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9988ee3c1bf01d036a59073e2030888fa8789d8c625251c002e20e410cc1c3b",
+        "sha256_in_prefix": "b9988ee3c1bf01d036a59073e2030888fa8789d8c625251c002e20e410cc1c3b",
+        "size_in_bytes": 2547
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/__main__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "887565a05b22d280d4477bdbe07edb2f2d7598768b19bb3dc3b860994eabd4ba",
+        "sha256_in_prefix": "887565a05b22d280d4477bdbe07edb2f2d7598768b19bb3dc3b860994eabd4ba",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/_show_versions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec4db7575585ae847ffb3184c26c736105bea2b84d1f2cf805325497bef6ecfb",
+        "sha256_in_prefix": "ec4db7575585ae847ffb3184c26c736105bea2b84d1f2cf805325497bef6ecfb",
+        "size_in_bytes": 2517
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "43bc48fa87ad9c90a4ffc95aea7087c35a42c582da31ee7588e6bb8dc571bfb0",
+        "sha256_in_prefix": "43bc48fa87ad9c90a4ffc95aea7087c35a42c582da31ee7588e6bb8dc571bfb0",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/datadir.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f3325e086bee39e5cc12a007c746ebcbaeda039dc9299e36ae6dd3d4d68cb58",
+        "sha256_in_prefix": "1f3325e086bee39e5cc12a007c746ebcbaeda039dc9299e36ae6dd3d4d68cb58",
+        "size_in_bytes": 2701
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/enums.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca7760fd0d1d62ce9a91f46c059aaef7b745a1090040de9c4710582419715731",
+        "sha256_in_prefix": "ca7760fd0d1d62ce9a91f46c059aaef7b745a1090040de9c4710582419715731",
+        "size_in_bytes": 3363
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4f131f9e151173ec1b8fd01f6604eb7deecaf933de8e4f752d04287b5097394",
+        "sha256_in_prefix": "c4f131f9e151173ec1b8fd01f6604eb7deecaf933de8e4f752d04287b5097394",
+        "size_in_bytes": 1529
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/geod.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "64cf4e5ae3ca76c3c29e66b2184389c32fb1294e64c10c05760e8574b0c2ea52",
+        "sha256_in_prefix": "64cf4e5ae3ca76c3c29e66b2184389c32fb1294e64c10c05760e8574b0c2ea52",
+        "size_in_bytes": 21570
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/proj.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f32536499e9f3bc4734653badd77f4a32b0ebad7150f9d9aadda7747fc0946d",
+        "sha256_in_prefix": "2f32536499e9f3bc4734653badd77f4a32b0ebad7150f9d9aadda7747fc0946d",
+        "size_in_bytes": 10319
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/transformer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f316b370772876df19743c72efe67d6a460a647307789261fb04681c4c5f3999",
+        "sha256_in_prefix": "f316b370772876df19743c72efe67d6a460a647307789261fb04681c4c5f3999",
+        "size_in_bytes": 28281
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/__pycache__/utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba37bc761d79d7362085735c8b8c01a204a49af4141c586137c77a19c3238b52",
+        "sha256_in_prefix": "ba37bc761d79d7362085735c8b8c01a204a49af4141c586137c77a19c3238b52",
+        "size_in_bytes": 1816
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/_crs.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "644a138a9b3329ffad432973aa161ffa32db3959def52cfc6b35619056e64c3b",
+        "sha256_in_prefix": "644a138a9b3329ffad432973aa161ffa32db3959def52cfc6b35619056e64c3b",
+        "size_in_bytes": 549760
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/_datadir.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3cd1e456e2f2ffb4f8e325c105f8907c849a6a1e5ac0ed324babe377a79346e1",
+        "sha256_in_prefix": "3cd1e456e2f2ffb4f8e325c105f8907c849a6a1e5ac0ed324babe377a79346e1",
+        "size_in_bytes": 50824
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/_geod.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6d482b7173784c00317facd0b1d75d09faff3bafc1abb953d2663b4daab9713b",
+        "sha256_in_prefix": "6d482b7173784c00317facd0b1d75d09faff3bafc1abb953d2663b4daab9713b",
+        "size_in_bytes": 104008
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/_list.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b57564ee948a154031ee396191116022b3a60243af3f7bfe36254e560ec9dfbb",
+        "sha256_in_prefix": "b57564ee948a154031ee396191116022b3a60243af3f7bfe36254e560ec9dfbb",
+        "size_in_bytes": 125448
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/_proj.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "606d28213b11a9ac654feefd57fe52b9ed4b13584e1d26d6e7c4a98004b25134",
+        "sha256_in_prefix": "606d28213b11a9ac654feefd57fe52b9ed4b13584e1d26d6e7c4a98004b25134",
+        "size_in_bytes": 130944
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/_show_versions.py",
+        "path_type": "hardlink",
+        "sha256": "85c0e9302ecf5f4613c4789ec0b0131fdbc4aa7fe5cb9d8c9eb2390b7a7406fe",
+        "sha256_in_prefix": "85c0e9302ecf5f4613c4789ec0b0131fdbc4aa7fe5cb9d8c9eb2390b7a7406fe",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/_transformer.cpython-37m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "d1eabfc10605523b2d7fc38f7eca5b29ee339135a3e1823a0008791472d97e9c",
+        "sha256_in_prefix": "d1eabfc10605523b2d7fc38f7eca5b29ee339135a3e1823a0008791472d97e9c",
+        "size_in_bytes": 181248
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/compat.py",
+        "path_type": "hardlink",
+        "sha256": "1624d24d89b5f2c2161d8728d6219994c21d23ba8501637c2a686792dbd5ee2e",
+        "sha256_in_prefix": "1624d24d89b5f2c2161d8728d6219994c21d23ba8501637c2a686792dbd5ee2e",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "65e03c074e48854c442aad8374a5799a3bc129dc177c453eec21c2aa9a286ff8",
+        "sha256_in_prefix": "65e03c074e48854c442aad8374a5799a3bc129dc177c453eec21c2aa9a286ff8",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "97a644ded5b7335e2cdf8826190244d7f2790ec05e4f0abc49551cf3fdb55490",
+        "sha256_in_prefix": "97a644ded5b7335e2cdf8826190244d7f2790ec05e4f0abc49551cf3fdb55490",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__pycache__/_cf1x8.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c64e991d62d005bc947daa8f3b34a3b3b923e7835215c17b821737dd4340fb74",
+        "sha256_in_prefix": "c64e991d62d005bc947daa8f3b34a3b3b923e7835215c17b821737dd4340fb74",
+        "size_in_bytes": 16453
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__pycache__/coordinate_operation.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bfebbaae8041bd3a102b6a0dc54e5d7920e956b221c5e08da89f551faa7b94a",
+        "sha256_in_prefix": "8bfebbaae8041bd3a102b6a0dc54e5d7920e956b221c5e08da89f551faa7b94a",
+        "size_in_bytes": 37286
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__pycache__/coordinate_system.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "57c4faa191cee9aef4a8b953117866aa0b675cc16d6d3afe929d1d23eb4c15eb",
+        "sha256_in_prefix": "57c4faa191cee9aef4a8b953117866aa0b675cc16d6d3afe929d1d23eb4c15eb",
+        "size_in_bytes": 4994
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__pycache__/crs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "58d0ddb6225c1b0411855702d7b5e80bc76e20c4058c69dc824983390aac5be5",
+        "sha256_in_prefix": "58d0ddb6225c1b0411855702d7b5e80bc76e20c4058c69dc824983390aac5be5",
+        "size_in_bytes": 34041
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__pycache__/datum.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cddf30dc0bba38e5bf7e8545bfbeb05d1f26549bd1219bf1a5141c7e0f8eca8d",
+        "sha256_in_prefix": "cddf30dc0bba38e5bf7e8545bfbeb05d1f26549bd1219bf1a5141c7e0f8eca8d",
+        "size_in_bytes": 3692
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/__pycache__/enums.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce199e3d11d55b412ddc21187a41accb0ab0a25629d07b4e7040dd5096dba35a",
+        "sha256_in_prefix": "ce199e3d11d55b412ddc21187a41accb0ab0a25629d07b4e7040dd5096dba35a",
+        "size_in_bytes": 3989
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/_cf1x8.py",
+        "path_type": "hardlink",
+        "sha256": "9eb2e65c914c13f4c5978e7750a6619a4f335b41ad0540b3aa1f6cf312438137",
+        "sha256_in_prefix": "9eb2e65c914c13f4c5978e7750a6619a4f335b41ad0540b3aa1f6cf312438137",
+        "size_in_bytes": 25990
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/coordinate_operation.py",
+        "path_type": "hardlink",
+        "sha256": "a072bc19881dd2b53a8d2697f5425274518324ea5a6b90f00e3b42cdf112303e",
+        "sha256_in_prefix": "a072bc19881dd2b53a8d2697f5425274518324ea5a6b90f00e3b42cdf112303e",
+        "size_in_bytes": 57694
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/coordinate_system.py",
+        "path_type": "hardlink",
+        "sha256": "29e0846ca845a5748f77fd7486b98c2241e6adb892e5e0d9140e0c5671e5b9c4",
+        "sha256_in_prefix": "29e0846ca845a5748f77fd7486b98c2241e6adb892e5e0d9140e0c5671e5b9c4",
+        "size_in_bytes": 9746
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/crs.py",
+        "path_type": "hardlink",
+        "sha256": "02cf9aa8ff11a426ee415ac937a1198e5c09b2b4d229d1e98f8f534aa87c28c2",
+        "sha256_in_prefix": "02cf9aa8ff11a426ee415ac937a1198e5c09b2b4d229d1e98f8f534aa87c28c2",
+        "size_in_bytes": 40220
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/datum.py",
+        "path_type": "hardlink",
+        "sha256": "1dc49439e3f7184565623668f0aadb9f45fb0696c8d1f413941de4e4d373ffa1",
+        "sha256_in_prefix": "1dc49439e3f7184565623668f0aadb9f45fb0696c8d1f413941de4e4d373ffa1",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/crs/enums.py",
+        "path_type": "hardlink",
+        "sha256": "158996bcc13e1de9528d5073b5966572e32de2c8f07e46f94de308862a134f7c",
+        "sha256_in_prefix": "158996bcc13e1de9528d5073b5966572e32de2c8f07e46f94de308862a134f7c",
+        "size_in_bytes": 3672
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/datadir.py",
+        "path_type": "hardlink",
+        "sha256": "02734878d18214f47e1f51db4aa25935591210d2fc1191a1cff4e6b20e9834b4",
+        "sha256_in_prefix": "02734878d18214f47e1f51db4aa25935591210d2fc1191a1cff4e6b20e9834b4",
+        "size_in_bytes": 3406
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/enums.py",
+        "path_type": "hardlink",
+        "sha256": "2eaf579beac1c412c7f19a4e9805d9e2ecafc82ab443a87237edf4d5229691e9",
+        "sha256_in_prefix": "2eaf579beac1c412c7f19a4e9805d9e2ecafc82ab443a87237edf4d5229691e9",
+        "size_in_bytes": 3485
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "c166343a2c9967f09f24379416e67bde3d3529d0666df0143d71b9183e75712d",
+        "sha256_in_prefix": "c166343a2c9967f09f24379416e67bde3d3529d0666df0143d71b9183e75712d",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/geod.py",
+        "path_type": "hardlink",
+        "sha256": "da51f41d202c57fa65a1556c4f6f2cd14082a667d0e31ae818777e1c7e9487c4",
+        "sha256_in_prefix": "da51f41d202c57fa65a1556c4f6f2cd14082a667d0e31ae818777e1c7e9487c4",
+        "size_in_bytes": 24711
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/proj.py",
+        "path_type": "hardlink",
+        "sha256": "3dd62d5fc63ee43a9ec6d1019a337ad0d10545445c943d5e90db8f0be49782c2",
+        "sha256_in_prefix": "3dd62d5fc63ee43a9ec6d1019a337ad0d10545445c943d5e90db8f0be49782c2",
+        "size_in_bytes": 11718
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/transformer.py",
+        "path_type": "hardlink",
+        "sha256": "d6552f6bc7e4a5981d3ee0dd16a9871edb52b55f501b3b455d451fc150be4e00",
+        "sha256_in_prefix": "d6552f6bc7e4a5981d3ee0dd16a9871edb52b55f501b3b455d451fc150be4e00",
+        "size_in_bytes": 29716
+      },
+      {
+        "_path": "lib/python3.7/site-packages/pyproj/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b605d09aa307f23764fa7423eff837012fab203d9a3822e5bd43f2f1dbb6167a",
+        "sha256_in_prefix": "b605d09aa307f23764fa7423eff837012fab203d9a3822e5bd43f2f1dbb6167a",
+        "size_in_bytes": 3056
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5a0434f094bdc2da470e7a7ce0f9ce298f6e1a94f8a92aeefa368b597ddafc9a",
+  "size": 449271,
+  "subdir": "linux-64",
+  "timestamp": 1602664583978,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyproj-2.6.1.post1-py37h6415a23_3.tar.bz2",
+  "version": "2.6.1.post1"
+}

@@ -1,0 +1,47 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "bokeh >=1.0.0,!=2.0.0",
+    "cloudpickle >=0.2.2",
+    "cytoolz >=0.8.2",
+    "dask-core 2020.12.0.*",
+    "distributed >=2020.12.0",
+    "fsspec >=0.6.0",
+    "numpy >=1.15.1",
+    "pandas >=0.25.0",
+    "partd >=0.3.10",
+    "python >=3.6",
+    "toolz >=0.8.2"
+  ],
+  "extracted_package_dir": "/srv/conda/pkgs/dask-2020.12.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "dask-2020.12.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/srv/conda/pkgs/dask-2020.12.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b10d9c6984a9aebdbd26a311b3faf906",
+  "name": "dask",
+  "noarch": "python",
+  "package_tarball_full_path": "/srv/conda/pkgs/dask-2020.12.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ee8de1762eb1ad44293cfffb4fc846d738e0d0f811395fb36e1b1ca8f424727e",
+  "size": 4459,
+  "subdir": "noarch",
+  "timestamp": 1607668493490,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dask-2020.12.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "2020.12.0"
+}

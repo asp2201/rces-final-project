@@ -1,0 +1,154 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=2.7"
+  ],
+  "extracted_package_dir": "/srv/conda/pkgs/sortedcontainers-2.3.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/LICENSE",
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/sortedcontainers-2.3.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/sortedcontainers/__init__.py",
+    "lib/python3.7/site-packages/sortedcontainers/sorteddict.py",
+    "lib/python3.7/site-packages/sortedcontainers/sortedlist.py",
+    "lib/python3.7/site-packages/sortedcontainers/sortedset.py",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/sorteddict.cpython-37.pyc",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/sortedlist.cpython-37.pyc",
+    "lib/python3.7/site-packages/sortedcontainers/__pycache__/sortedset.cpython-37.pyc"
+  ],
+  "fn": "sortedcontainers-2.3.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/srv/conda/pkgs/sortedcontainers-2.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "2f5b87cd0bdf1822b62e40909f471db4",
+  "name": "sortedcontainers",
+  "noarch": "python",
+  "package_tarball_full_path": "/srv/conda/pkgs/sortedcontainers-2.3.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1db7cae7fce6452e2e608e401a0f953e0133e4c2d75db69fb8ae851d2086f5b6",
+        "sha256_in_prefix": "1db7cae7fce6452e2e608e401a0f953e0133e4c2d75db69fb8ae851d2086f5b6",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4d4086ab9a7d1f251efb97197179f59962d2504c6eafbcd0bf963ddda918b831",
+        "sha256_in_prefix": "4d4086ab9a7d1f251efb97197179f59962d2504c6eafbcd0bf963ddda918b831",
+        "size_in_bytes": 10666
+      },
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ca125e51c2e5bfffe598e7e7c6dcad34798323f31166e598abe41ffc56cf4b5f",
+        "sha256_in_prefix": "ca125e51c2e5bfffe598e7e7c6dcad34798323f31166e598abe41ffc56cf4b5f",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "35b901e20fda8f210261a703382ae3da11f3f943ac81e0874b3047d264fce9a8",
+        "sha256_in_prefix": "35b901e20fda8f210261a703382ae3da11f3f943ac81e0874b3047d264fce9a8",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/sortedcontainers-2.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "015b34abea9ffb5d20b35b645617c02dd79b268e2e3ee555057ed84fdd6b8905",
+        "sha256_in_prefix": "015b34abea9ffb5d20b35b645617c02dd79b268e2e3ee555057ed84fdd6b8905",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/sortedcontainers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28d3df49bc3b94b21a22763acc0343683f5cfa94dfc50d07684a487e4e3aa8e4",
+        "sha256_in_prefix": "28d3df49bc3b94b21a22763acc0343683f5cfa94dfc50d07684a487e4e3aa8e4",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "site-packages/sortedcontainers/sorteddict.py",
+        "path_type": "hardlink",
+        "sha256": "c862c764ec1c4aa61edc477689970ca501f9447ff2a46feb6dec63fb8e7f9cbd",
+        "sha256_in_prefix": "c862c764ec1c4aa61edc477689970ca501f9447ff2a46feb6dec63fb8e7f9cbd",
+        "size_in_bytes": 22154
+      },
+      {
+        "_path": "site-packages/sortedcontainers/sortedlist.py",
+        "path_type": "hardlink",
+        "sha256": "af003574cf1c7b4f5e6f60cc8cb39f1e88a4842c7f45f9399ee13f352b1faf72",
+        "sha256_in_prefix": "af003574cf1c7b4f5e6f60cc8cb39f1e88a4842c7f45f9399ee13f352b1faf72",
+        "size_in_bytes": 76331
+      },
+      {
+        "_path": "site-packages/sortedcontainers/sortedset.py",
+        "path_type": "hardlink",
+        "sha256": "e51236094246326d62837f9d85b3abcc397c68fa8378f92824f428ab444e4bb3",
+        "sha256_in_prefix": "e51236094246326d62837f9d85b3abcc397c68fa8378f92824f428ab444e4bb3",
+        "size_in_bytes": 19825
+      },
+      {
+        "_path": "lib/python3.7/site-packages/sortedcontainers/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/sortedcontainers/__pycache__/sorteddict.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/sortedcontainers/__pycache__/sortedlist.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/sortedcontainers/__pycache__/sortedset.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1e6b94b486f3be0da59c9a7258277f845710d82587fd6c78eb68c9c3f837b1a1",
+  "size": 26264,
+  "subdir": "noarch",
+  "timestamp": 1605111014531,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/sortedcontainers-2.3.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.3.0"
+}

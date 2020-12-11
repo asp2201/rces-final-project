@@ -1,0 +1,250 @@
+{
+  "build": "pyhd3deb0d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pyparsing >=2.0.2",
+    "python >=2.7",
+    "six"
+  ],
+  "extracted_package_dir": "/srv/conda/pkgs/packaging-20.7-pyhd3deb0d_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/LICENSE",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/LICENSE.APACHE",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/LICENSE.BSD",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/METADATA",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/RECORD",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/REQUESTED",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/WHEEL",
+    "lib/python3.7/site-packages/packaging-20.7.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/packaging/__init__.py",
+    "lib/python3.7/site-packages/packaging/_compat.py",
+    "lib/python3.7/site-packages/packaging/_structures.py",
+    "lib/python3.7/site-packages/packaging/_typing.py",
+    "lib/python3.7/site-packages/packaging/markers.py",
+    "lib/python3.7/site-packages/packaging/py.typed",
+    "lib/python3.7/site-packages/packaging/requirements.py",
+    "lib/python3.7/site-packages/packaging/specifiers.py",
+    "lib/python3.7/site-packages/packaging/tags.py",
+    "lib/python3.7/site-packages/packaging/utils.py",
+    "lib/python3.7/site-packages/packaging/version.py",
+    "lib/python3.7/site-packages/packaging/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/_compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/_structures.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/_typing.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/markers.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/requirements.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/specifiers.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/tags.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/packaging/__pycache__/version.cpython-37.pyc"
+  ],
+  "fn": "packaging-20.7-pyhd3deb0d_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/srv/conda/pkgs/packaging-20.7-pyhd3deb0d_0",
+    "type": 1
+  },
+  "md5": "0bc8af3dd7a02bd106cd05ac35007309",
+  "name": "packaging",
+  "noarch": "python",
+  "package_tarball_full_path": "/srv/conda/pkgs/packaging-20.7-pyhd3deb0d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+        "sha256_in_prefix": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/LICENSE.APACHE",
+        "path_type": "hardlink",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "sha256_in_prefix": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "size_in_bytes": 10174
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/LICENSE.BSD",
+        "path_type": "hardlink",
+        "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+        "sha256_in_prefix": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7e3af8dbccf9fb24677ece725126d70ca8f249124186e76b6eed2eea59be6dba",
+        "sha256_in_prefix": "7e3af8dbccf9fb24677ece725126d70ca8f249124186e76b6eed2eea59be6dba",
+        "size_in_bytes": 3328
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0028ec56ea7a8946a86226ba1cfcd06729bbc26f36e431d6753c08f96a078ab1",
+        "sha256_in_prefix": "0028ec56ea7a8946a86226ba1cfcd06729bbc26f36e431d6753c08f96a078ab1",
+        "size_in_bytes": 2119
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "34baa6b31f99159ea00dabd8821da81f465237e2919a971d1172190e7632f4f8",
+        "sha256_in_prefix": "34baa6b31f99159ea00dabd8821da81f465237e2919a971d1172190e7632f4f8",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/packaging-20.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "34bac84379a5451626a4d25402d9c39d78cb599ece653971a1ffc6d6aa684b54",
+        "sha256_in_prefix": "34bac84379a5451626a4d25402d9c39d78cb599ece653971a1ffc6d6aa684b54",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/packaging/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f62ed11eadbc721efda492c08cf353fc0b5aa4a804015dccafbe298aed07ed23",
+        "sha256_in_prefix": "f62ed11eadbc721efda492c08cf353fc0b5aa4a804015dccafbe298aed07ed23",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "site-packages/packaging/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "31776c1a9484fd6f99ac7a02f3b6a7748e0b576140c14ec72cbf9e1defc28e15",
+        "sha256_in_prefix": "31776c1a9484fd6f99ac7a02f3b6a7748e0b576140c14ec72cbf9e1defc28e15",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "site-packages/packaging/_structures.py",
+        "path_type": "hardlink",
+        "sha256": "a339025fc43c7f6a84d4489cdd8890e1bb8355f833da261ebd8f5eed1db2de26",
+        "sha256_in_prefix": "a339025fc43c7f6a84d4489cdd8890e1bb8355f833da261ebd8f5eed1db2de26",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "site-packages/packaging/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "c79f44850e7b4cc4fe9134722d9576e4766f6061b06ee713a3a88a87f3b4b4cc",
+        "sha256_in_prefix": "c79f44850e7b4cc4fe9134722d9576e4766f6061b06ee713a3a88a87f3b4b4cc",
+        "size_in_bytes": 1812
+      },
+      {
+        "_path": "site-packages/packaging/markers.py",
+        "path_type": "hardlink",
+        "sha256": "ca7221f7658ac504f1ebadd113aeb3278af83253473d64c56333f44357be70b7",
+        "sha256_in_prefix": "ca7221f7658ac504f1ebadd113aeb3278af83253473d64c56333f44357be70b7",
+        "size_in_bytes": 9455
+      },
+      {
+        "_path": "site-packages/packaging/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/packaging/requirements.py",
+        "path_type": "hardlink",
+        "sha256": "ea059a8c5d38419c46f8d696e909b27893dd457ff7a4a45ce2edb7fe22c2385d",
+        "sha256_in_prefix": "ea059a8c5d38419c46f8d696e909b27893dd457ff7a4a45ce2edb7fe22c2385d",
+        "size_in_bytes": 4957
+      },
+      {
+        "_path": "site-packages/packaging/specifiers.py",
+        "path_type": "hardlink",
+        "sha256": "007da6bd137356832c00671822f6d2c6938c22248ad04738b9128e94455e8bbc",
+        "sha256_in_prefix": "007da6bd137356832c00671822f6d2c6938c22248ad04738b9128e94455e8bbc",
+        "size_in_bytes": 32208
+      },
+      {
+        "_path": "site-packages/packaging/tags.py",
+        "path_type": "hardlink",
+        "sha256": "4629991b27cae310d206bcc4a3a4e0e460b8b1441f8fdac507f7938405f2d25a",
+        "sha256_in_prefix": "4629991b27cae310d206bcc4a3a4e0e460b8b1441f8fdac507f7938405f2d25a",
+        "size_in_bytes": 29013
+      },
+      {
+        "_path": "site-packages/packaging/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8d566fb9ff76c2aab6d9a3bd6842929c567c958f4770fec7ca07d349aa5caa4a",
+        "sha256_in_prefix": "8d566fb9ff76c2aab6d9a3bd6842929c567c958f4770fec7ca07d349aa5caa4a",
+        "size_in_bytes": 1915
+      },
+      {
+        "_path": "site-packages/packaging/version.py",
+        "path_type": "hardlink",
+        "sha256": "b7b169b192a60e770c9fa106dbc744bbfe4d05951af7f1d5a221be7ec0e8de87",
+        "sha256_in_prefix": "b7b169b192a60e770c9fa106dbc744bbfe4d05951af7f1d5a221be7ec0e8de87",
+        "size_in_bytes": 15974
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/_compat.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/_structures.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/_typing.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/markers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/requirements.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/specifiers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/tags.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/packaging/__pycache__/version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a72dbae6271ff103f494a3602d975ba555ad541f55f5b4854a103a8628602910",
+  "size": 32303,
+  "subdir": "noarch",
+  "timestamp": 1607084076599,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/packaging-20.7-pyhd3deb0d_0.tar.bz2",
+  "version": "20.7"
+}

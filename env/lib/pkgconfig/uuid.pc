@@ -1,0 +1,11 @@
+prefix=/home/jovyan/rces-final-project/env
+exec_prefix=/home/jovyan/rces-final-project/env
+libdir=/home/jovyan/rces-final-project/env/lib
+includedir=/home/jovyan/rces-final-project/env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

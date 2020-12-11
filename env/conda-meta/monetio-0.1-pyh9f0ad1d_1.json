@@ -1,0 +1,656 @@
+{
+  "build": "pyh9f0ad1d_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dask",
+    "joblib",
+    "numpy",
+    "pandas",
+    "pyresample",
+    "python",
+    "s3fs",
+    "scipy",
+    "xarray"
+  ],
+  "extracted_package_dir": "/srv/conda/pkgs/monetio-0.1-pyh9f0ad1d_1",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/monetio-0.1.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/monetio-0.1.dist-info/LICENSE",
+    "lib/python3.7/site-packages/monetio-0.1.dist-info/METADATA",
+    "lib/python3.7/site-packages/monetio-0.1.dist-info/RECORD",
+    "lib/python3.7/site-packages/monetio-0.1.dist-info/WHEEL",
+    "lib/python3.7/site-packages/monetio-0.1.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/monetio/__init__.py",
+    "lib/python3.7/site-packages/monetio/data/MONET-logo.png",
+    "lib/python3.7/site-packages/monetio/data/sn_bound_10deg.txt",
+    "lib/python3.7/site-packages/monetio/grids.py",
+    "lib/python3.7/site-packages/monetio/models/__init__.py",
+    "lib/python3.7/site-packages/monetio/models/camx.py",
+    "lib/python3.7/site-packages/monetio/models/cdump2netcdf.py",
+    "lib/python3.7/site-packages/monetio/models/cmaq.py",
+    "lib/python3.7/site-packages/monetio/models/emitimes.py",
+    "lib/python3.7/site-packages/monetio/models/fv3chem.py",
+    "lib/python3.7/site-packages/monetio/models/hysplit.py",
+    "lib/python3.7/site-packages/monetio/models/ncep_grib.py",
+    "lib/python3.7/site-packages/monetio/models/pardump.py",
+    "lib/python3.7/site-packages/monetio/models/prepchem.py",
+    "lib/python3.7/site-packages/monetio/obs/__init__.py",
+    "lib/python3.7/site-packages/monetio/obs/aeronet.py",
+    "lib/python3.7/site-packages/monetio/obs/airnow.py",
+    "lib/python3.7/site-packages/monetio/obs/aqs.py",
+    "lib/python3.7/site-packages/monetio/obs/cems_api.py",
+    "lib/python3.7/site-packages/monetio/obs/cems_mod.py",
+    "lib/python3.7/site-packages/monetio/obs/crn.py",
+    "lib/python3.7/site-packages/monetio/obs/epa_util.py",
+    "lib/python3.7/site-packages/monetio/obs/icartt.py",
+    "lib/python3.7/site-packages/monetio/obs/improve_mod.py",
+    "lib/python3.7/site-packages/monetio/obs/ish.py",
+    "lib/python3.7/site-packages/monetio/obs/ish_lite.py",
+    "lib/python3.7/site-packages/monetio/obs/nadp.py",
+    "lib/python3.7/site-packages/monetio/obs/obs_util.py",
+    "lib/python3.7/site-packages/monetio/obs/openaq.py",
+    "lib/python3.7/site-packages/monetio/profile/__init__.py",
+    "lib/python3.7/site-packages/monetio/profile/icartt.py",
+    "lib/python3.7/site-packages/monetio/profile/tolnet.py",
+    "lib/python3.7/site-packages/monetio/profile/umbc_aerosol.py",
+    "lib/python3.7/site-packages/monetio/sat/__init__.py",
+    "lib/python3.7/site-packages/monetio/sat/goes.py",
+    "lib/python3.7/site-packages/monetio/sat/lpdaac_download.py",
+    "lib/python3.7/site-packages/monetio/sat/modis_ornl.py",
+    "lib/python3.7/site-packages/monetio/sat/nasa_modis.py",
+    "lib/python3.7/site-packages/monetio/sat/nasa_utils.py",
+    "lib/python3.7/site-packages/monetio/sat/nesdis_edr_viirs.py",
+    "lib/python3.7/site-packages/monetio/sat/nesdis_eps_viirs.py",
+    "lib/python3.7/site-packages/monetio/sat/nesdis_frp.py",
+    "lib/python3.7/site-packages/monetio/sat/utility.py",
+    "lib/python3.7/site-packages/monetio/util.py",
+    "lib/python3.7/site-packages/monetio/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/__pycache__/grids.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/camx.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/cdump2netcdf.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/cmaq.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/emitimes.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/fv3chem.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/hysplit.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/ncep_grib.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/pardump.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/models/__pycache__/prepchem.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/aeronet.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/airnow.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/aqs.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/cems_api.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/cems_mod.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/crn.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/epa_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/icartt.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/improve_mod.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/ish.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/ish_lite.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/nadp.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/obs_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/obs/__pycache__/openaq.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/profile/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/profile/__pycache__/icartt.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/profile/__pycache__/tolnet.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/profile/__pycache__/umbc_aerosol.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/goes.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/lpdaac_download.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/modis_ornl.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/nasa_modis.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/nasa_utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/nesdis_edr_viirs.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/nesdis_eps_viirs.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/nesdis_frp.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/sat/__pycache__/utility.cpython-37.pyc",
+    "lib/python3.7/site-packages/monetio/__pycache__/util.cpython-37.pyc"
+  ],
+  "fn": "monetio-0.1-pyh9f0ad1d_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/srv/conda/pkgs/monetio-0.1-pyh9f0ad1d_1",
+    "type": 1
+  },
+  "md5": "6665e2e5bc736ec41911ee05f7e7adac",
+  "name": "monetio",
+  "noarch": "python",
+  "package_tarball_full_path": "/srv/conda/pkgs/monetio-0.1-pyh9f0ad1d_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/monetio-0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/monetio-0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b274c8613bf013df79627934087b0a8078ff82fc08872f8c648873d38dc22c63",
+        "sha256_in_prefix": "b274c8613bf013df79627934087b0a8078ff82fc08872f8c648873d38dc22c63",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/monetio-0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f9bb0bb14b84e65f51e6b356fa6968645c36e69626d6a458d9abd2c4ffe7a2f2",
+        "sha256_in_prefix": "f9bb0bb14b84e65f51e6b356fa6968645c36e69626d6a458d9abd2c4ffe7a2f2",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "site-packages/monetio-0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3e511ee160ac55239e2991a0a4a3b1497740dfbad0a7f2703f0db4071aef22b4",
+        "sha256_in_prefix": "3e511ee160ac55239e2991a0a4a3b1497740dfbad0a7f2703f0db4071aef22b4",
+        "size_in_bytes": 6193
+      },
+      {
+        "_path": "site-packages/monetio-0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/monetio-0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e2145a39a7b80f51462f649a09f4f9c8e960541d5b6c81790c049117df27be80",
+        "sha256_in_prefix": "e2145a39a7b80f51462f649a09f4f9c8e960541d5b6c81790c049117df27be80",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/monetio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1ce9357f70141af3319a9f93341ec61c5a67fb8ae187fc62cbba4fc84299eac8",
+        "sha256_in_prefix": "1ce9357f70141af3319a9f93341ec61c5a67fb8ae187fc62cbba4fc84299eac8",
+        "size_in_bytes": 2453
+      },
+      {
+        "_path": "site-packages/monetio/data/MONET-logo.png",
+        "path_type": "hardlink",
+        "sha256": "04795a2a06595826875b4d98514f9aaaaebad786310601c147960c1a0d1692c5",
+        "sha256_in_prefix": "04795a2a06595826875b4d98514f9aaaaebad786310601c147960c1a0d1692c5",
+        "size_in_bytes": 56894
+      },
+      {
+        "_path": "site-packages/monetio/data/sn_bound_10deg.txt",
+        "path_type": "hardlink",
+        "sha256": "2ac5440d04b3b5a2ed38dadd631eab881b79762815692dc164934685e064e08b",
+        "sha256_in_prefix": "2ac5440d04b3b5a2ed38dadd631eab881b79762815692dc164934685e064e08b",
+        "size_in_bytes": 32542
+      },
+      {
+        "_path": "site-packages/monetio/grids.py",
+        "path_type": "hardlink",
+        "sha256": "5fa355928280892c0a898308de58d4a1d37478ec43af8329acb1acf0e56630a2",
+        "sha256_in_prefix": "5fa355928280892c0a898308de58d4a1d37478ec43af8329acb1acf0e56630a2",
+        "size_in_bytes": 7773
+      },
+      {
+        "_path": "site-packages/monetio/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "83ced73acdfb04f0a1538389606cd4f2762ce2fc5545d45b773004e3e03cdea4",
+        "sha256_in_prefix": "83ced73acdfb04f0a1538389606cd4f2762ce2fc5545d45b773004e3e03cdea4",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/monetio/models/camx.py",
+        "path_type": "hardlink",
+        "sha256": "c1a9f6604b02420f68129d45a7f4702ce89081b3814aa428e0173cc13f8ea524",
+        "sha256_in_prefix": "c1a9f6604b02420f68129d45a7f4702ce89081b3814aa428e0173cc13f8ea524",
+        "size_in_bytes": 12031
+      },
+      {
+        "_path": "site-packages/monetio/models/cdump2netcdf.py",
+        "path_type": "hardlink",
+        "sha256": "32cad7b29a89bddb5d2a8ffd213bb064dca18378a4f02d77babaf79bc3b0cbcd",
+        "sha256_in_prefix": "32cad7b29a89bddb5d2a8ffd213bb064dca18378a4f02d77babaf79bc3b0cbcd",
+        "size_in_bytes": 10904
+      },
+      {
+        "_path": "site-packages/monetio/models/cmaq.py",
+        "path_type": "hardlink",
+        "sha256": "1f13ba1700d6c73855a663bb16cf8fb28161f72418b4c6bd39775bf811827e1e",
+        "sha256_in_prefix": "1f13ba1700d6c73855a663bb16cf8fb28161f72418b4c6bd39775bf811827e1e",
+        "size_in_bytes": 17564
+      },
+      {
+        "_path": "site-packages/monetio/models/emitimes.py",
+        "path_type": "hardlink",
+        "sha256": "df116776262c0dd698787961405b117496534a4557e613bfd66f285359a4cd8f",
+        "sha256_in_prefix": "df116776262c0dd698787961405b117496534a4557e613bfd66f285359a4cd8f",
+        "size_in_bytes": 20998
+      },
+      {
+        "_path": "site-packages/monetio/models/fv3chem.py",
+        "path_type": "hardlink",
+        "sha256": "747512846bc22ec03bb84cb0c14e6f1c854267ab1442396f763aa42fd0d89af2",
+        "sha256_in_prefix": "747512846bc22ec03bb84cb0c14e6f1c854267ab1442396f763aa42fd0d89af2",
+        "size_in_bytes": 21067
+      },
+      {
+        "_path": "site-packages/monetio/models/hysplit.py",
+        "path_type": "hardlink",
+        "sha256": "ee5abb2e79c547ea4f3ddd5df075a841ce7c89173d87ff783c6bd20b7306862c",
+        "sha256_in_prefix": "ee5abb2e79c547ea4f3ddd5df075a841ce7c89173d87ff783c6bd20b7306862c",
+        "size_in_bytes": 35227
+      },
+      {
+        "_path": "site-packages/monetio/models/ncep_grib.py",
+        "path_type": "hardlink",
+        "sha256": "007ba0bbaeb6b555ac60b26c482bf48bc2b3c6bd9f5971f85389ab068812ed8e",
+        "sha256_in_prefix": "007ba0bbaeb6b555ac60b26c482bf48bc2b3c6bd9f5971f85389ab068812ed8e",
+        "size_in_bytes": 3556
+      },
+      {
+        "_path": "site-packages/monetio/models/pardump.py",
+        "path_type": "hardlink",
+        "sha256": "3f4b65184a2463b2e03917839c42b62b7a98f206fd9fd7968ece49fc845b0cbf",
+        "sha256_in_prefix": "3f4b65184a2463b2e03917839c42b62b7a98f206fd9fd7968ece49fc845b0cbf",
+        "size_in_bytes": 8840
+      },
+      {
+        "_path": "site-packages/monetio/models/prepchem.py",
+        "path_type": "hardlink",
+        "sha256": "1b83f17e2e890e2f9e2978210466bec0bd69d2916c93b76002be11247f20f8f6",
+        "sha256_in_prefix": "1b83f17e2e890e2f9e2978210466bec0bd69d2916c93b76002be11247f20f8f6",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "site-packages/monetio/obs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4d3b6d139c29a24c042ebe4e3a726a5e2ce48863e302f2c18028c8c54190e7a0",
+        "sha256_in_prefix": "4d3b6d139c29a24c042ebe4e3a726a5e2ce48863e302f2c18028c8c54190e7a0",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "site-packages/monetio/obs/aeronet.py",
+        "path_type": "hardlink",
+        "sha256": "b7c007a17e04573b37f83ea5b31bf67392908e047fad9891c280d5c212df6527",
+        "sha256_in_prefix": "b7c007a17e04573b37f83ea5b31bf67392908e047fad9891c280d5c212df6527",
+        "size_in_bytes": 7270
+      },
+      {
+        "_path": "site-packages/monetio/obs/airnow.py",
+        "path_type": "hardlink",
+        "sha256": "7416df480a0402956db856de124a9f20d1c6aae49f433204f0a6c833b846adec",
+        "sha256_in_prefix": "7416df480a0402956db856de124a9f20d1c6aae49f433204f0a6c833b846adec",
+        "size_in_bytes": 6523
+      },
+      {
+        "_path": "site-packages/monetio/obs/aqs.py",
+        "path_type": "hardlink",
+        "sha256": "2c029e30a314d37ddba273050cca7284fba26d774540e4bd0a332cddeddcc82a",
+        "sha256_in_prefix": "2c029e30a314d37ddba273050cca7284fba26d774540e4bd0a332cddeddcc82a",
+        "size_in_bytes": 21958
+      },
+      {
+        "_path": "site-packages/monetio/obs/cems_api.py",
+        "path_type": "hardlink",
+        "sha256": "6ebfd36aded4aeec27038d6499a5e5a8030918843db5f7e5d01a12ef99506813",
+        "sha256_in_prefix": "6ebfd36aded4aeec27038d6499a5e5a8030918843db5f7e5d01a12ef99506813",
+        "size_in_bytes": 65758
+      },
+      {
+        "_path": "site-packages/monetio/obs/cems_mod.py",
+        "path_type": "hardlink",
+        "sha256": "067845a590ed00fc0e6ea0202e0009928e8765448ec8f04d4ebb0e33ffdd17cf",
+        "sha256_in_prefix": "067845a590ed00fc0e6ea0202e0009928e8765448ec8f04d4ebb0e33ffdd17cf",
+        "size_in_bytes": 19278
+      },
+      {
+        "_path": "site-packages/monetio/obs/crn.py",
+        "path_type": "hardlink",
+        "sha256": "3a4ca42f26aca049342ab1d8db457b719d1285e3731f781188e966de55e8dede",
+        "sha256_in_prefix": "3a4ca42f26aca049342ab1d8db457b719d1285e3731f781188e966de55e8dede",
+        "size_in_bytes": 18014
+      },
+      {
+        "_path": "site-packages/monetio/obs/epa_util.py",
+        "path_type": "hardlink",
+        "sha256": "3ee214682330ce7acf1c914f281f7e0dff233ba7c5f44e32337b80a556551b5d",
+        "sha256_in_prefix": "3ee214682330ce7acf1c914f281f7e0dff233ba7c5f44e32337b80a556551b5d",
+        "size_in_bytes": 15796
+      },
+      {
+        "_path": "site-packages/monetio/obs/icartt.py",
+        "path_type": "hardlink",
+        "sha256": "92fc27455e379b7eac72b97c5536a079780bbc551120752b13d4f44a3371bc6f",
+        "sha256_in_prefix": "92fc27455e379b7eac72b97c5536a079780bbc551120752b13d4f44a3371bc6f",
+        "size_in_bytes": 7432
+      },
+      {
+        "_path": "site-packages/monetio/obs/improve_mod.py",
+        "path_type": "hardlink",
+        "sha256": "093971ba3e618743c445a16cbab2abb30fae924d0a03b45305e273ba57676ef5",
+        "sha256_in_prefix": "093971ba3e618743c445a16cbab2abb30fae924d0a03b45305e273ba57676ef5",
+        "size_in_bytes": 5240
+      },
+      {
+        "_path": "site-packages/monetio/obs/ish.py",
+        "path_type": "hardlink",
+        "sha256": "59c00a8798cca1fd845b43536dc85eeb22736147723d1a348e37db1fb1785beb",
+        "sha256_in_prefix": "59c00a8798cca1fd845b43536dc85eeb22736147723d1a348e37db1fb1785beb",
+        "size_in_bytes": 12995
+      },
+      {
+        "_path": "site-packages/monetio/obs/ish_lite.py",
+        "path_type": "hardlink",
+        "sha256": "d062bd83939c72d4df74b3c3b107392c6537658290f862c022d1b5254be8b0d7",
+        "sha256_in_prefix": "d062bd83939c72d4df74b3c3b107392c6537658290f862c022d1b5254be8b0d7",
+        "size_in_bytes": 11074
+      },
+      {
+        "_path": "site-packages/monetio/obs/nadp.py",
+        "path_type": "hardlink",
+        "sha256": "c0c5db14002b0de8dd3ba62ab07473b12ab566185ab78caaf86fa169fa350619",
+        "sha256_in_prefix": "c0c5db14002b0de8dd3ba62ab07473b12ab566185ab78caaf86fa169fa350619",
+        "size_in_bytes": 7748
+      },
+      {
+        "_path": "site-packages/monetio/obs/obs_util.py",
+        "path_type": "hardlink",
+        "sha256": "01152ca96f17d9ff268e6c2ed61d643343646f025266c0c12b8520725bce3380",
+        "sha256_in_prefix": "01152ca96f17d9ff268e6c2ed61d643343646f025266c0c12b8520725bce3380",
+        "size_in_bytes": 6165
+      },
+      {
+        "_path": "site-packages/monetio/obs/openaq.py",
+        "path_type": "hardlink",
+        "sha256": "e405f7f24a6a82aeec7c20f167ce7c8feaf90305c27166b0a4f9ee377a1d70fc",
+        "sha256_in_prefix": "e405f7f24a6a82aeec7c20f167ce7c8feaf90305c27166b0a4f9ee377a1d70fc",
+        "size_in_bytes": 6398
+      },
+      {
+        "_path": "site-packages/monetio/profile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dedf431ce248fd929c9d54ab218b008ad782ea530544dffd552b770da48db109",
+        "sha256_in_prefix": "dedf431ce248fd929c9d54ab218b008ad782ea530544dffd552b770da48db109",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/monetio/profile/icartt.py",
+        "path_type": "hardlink",
+        "sha256": "375a01574787399787e6e8f2c371e39334fd9a889d1acab4f97280dfd529baf2",
+        "sha256_in_prefix": "375a01574787399787e6e8f2c371e39334fd9a889d1acab4f97280dfd529baf2",
+        "size_in_bytes": 22446
+      },
+      {
+        "_path": "site-packages/monetio/profile/tolnet.py",
+        "path_type": "hardlink",
+        "sha256": "59ae0133756e8f1e4ec1476d1406223411d8efa8e2b89010e33535dda9bce727",
+        "sha256_in_prefix": "59ae0133756e8f1e4ec1476d1406223411d8efa8e2b89010e33535dda9bce727",
+        "size_in_bytes": 7781
+      },
+      {
+        "_path": "site-packages/monetio/profile/umbc_aerosol.py",
+        "path_type": "hardlink",
+        "sha256": "8568f5c4922f296a3fa9de7b2acb8b422d87c07a644d764d32f3de4c05a46796",
+        "sha256_in_prefix": "8568f5c4922f296a3fa9de7b2acb8b422d87c07a644d764d32f3de4c05a46796",
+        "size_in_bytes": 3039
+      },
+      {
+        "_path": "site-packages/monetio/sat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "96ba39202e01035b04ca29ee4fce6a5cd7fe55bec36d9efb0c6c9f4a884ebba3",
+        "sha256_in_prefix": "96ba39202e01035b04ca29ee4fce6a5cd7fe55bec36d9efb0c6c9f4a884ebba3",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "site-packages/monetio/sat/goes.py",
+        "path_type": "hardlink",
+        "sha256": "57065db0fbc782f450749cee88821f4434318615aa2c6546abd258c90c63ab5f",
+        "sha256_in_prefix": "57065db0fbc782f450749cee88821f4434318615aa2c6546abd258c90c63ab5f",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "site-packages/monetio/sat/lpdaac_download.py",
+        "path_type": "hardlink",
+        "sha256": "3773fe860216fcb9fa400e6d68e6b4728f13bbc0ac7be47e1f6af248abf0ad4c",
+        "sha256_in_prefix": "3773fe860216fcb9fa400e6d68e6b4728f13bbc0ac7be47e1f6af248abf0ad4c",
+        "size_in_bytes": 5109
+      },
+      {
+        "_path": "site-packages/monetio/sat/modis_ornl.py",
+        "path_type": "hardlink",
+        "sha256": "e06b38a3f87a783141506d7d7f0a6aab359a952f1a2a7c7991dfc984d98bcf3c",
+        "sha256_in_prefix": "e06b38a3f87a783141506d7d7f0a6aab359a952f1a2a7c7991dfc984d98bcf3c",
+        "size_in_bytes": 13144
+      },
+      {
+        "_path": "site-packages/monetio/sat/nasa_modis.py",
+        "path_type": "hardlink",
+        "sha256": "debd338a633b75e1d050689abd3e81fe1de77ab0a078f329c8186e65deb0dfc4",
+        "sha256_in_prefix": "debd338a633b75e1d050689abd3e81fe1de77ab0a078f329c8186e65deb0dfc4",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "site-packages/monetio/sat/nasa_utils.py",
+        "path_type": "hardlink",
+        "sha256": "f87ab2aa197a80fbe5e140743c960188f421de841922a4215e1a909d9d8cc8f5",
+        "sha256_in_prefix": "f87ab2aa197a80fbe5e140743c960188f421de841922a4215e1a909d9d8cc8f5",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "site-packages/monetio/sat/nesdis_edr_viirs.py",
+        "path_type": "hardlink",
+        "sha256": "c5ad83ccd232f6c7811531b639145578e2f61cff1e2d9f08cd9d0ff0e3b63465",
+        "sha256_in_prefix": "c5ad83ccd232f6c7811531b639145578e2f61cff1e2d9f08cd9d0ff0e3b63465",
+        "size_in_bytes": 3121
+      },
+      {
+        "_path": "site-packages/monetio/sat/nesdis_eps_viirs.py",
+        "path_type": "hardlink",
+        "sha256": "33779e0c974c27701858d3e7c59ce6f2c0a2ef563178a4f9d611b07305256c9d",
+        "sha256_in_prefix": "33779e0c974c27701858d3e7c59ce6f2c0a2ef563178a4f9d611b07305256c9d",
+        "size_in_bytes": 4299
+      },
+      {
+        "_path": "site-packages/monetio/sat/nesdis_frp.py",
+        "path_type": "hardlink",
+        "sha256": "d6b87f3c14c3c12970ab435bda92b995a0d6d5e0d11bdce5541897c0d0283ac2",
+        "sha256_in_prefix": "d6b87f3c14c3c12970ab435bda92b995a0d6d5e0d11bdce5541897c0d0283ac2",
+        "size_in_bytes": 1137
+      },
+      {
+        "_path": "site-packages/monetio/sat/utility.py",
+        "path_type": "hardlink",
+        "sha256": "f4ff4192f5acb5ac6629447d15005cb0e2bbe8660ede78ba70921376b812185e",
+        "sha256_in_prefix": "f4ff4192f5acb5ac6629447d15005cb0e2bbe8660ede78ba70921376b812185e",
+        "size_in_bytes": 3754
+      },
+      {
+        "_path": "site-packages/monetio/util.py",
+        "path_type": "hardlink",
+        "sha256": "2fe8aa39b19562171cf22df6f87e4a1e967c3dd8660db3a740d015d38ed3777a",
+        "sha256_in_prefix": "2fe8aa39b19562171cf22df6f87e4a1e967c3dd8660db3a740d015d38ed3777a",
+        "size_in_bytes": 7763
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/__pycache__/grids.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/camx.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/cdump2netcdf.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/cmaq.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/emitimes.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/fv3chem.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/hysplit.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/ncep_grib.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/pardump.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/models/__pycache__/prepchem.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/aeronet.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/airnow.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/aqs.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/cems_api.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/cems_mod.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/crn.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/epa_util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/icartt.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/improve_mod.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/ish.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/ish_lite.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/nadp.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/obs_util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/obs/__pycache__/openaq.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/profile/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/profile/__pycache__/icartt.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/profile/__pycache__/tolnet.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/profile/__pycache__/umbc_aerosol.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/goes.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/lpdaac_download.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/modis_ornl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/nasa_modis.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/nasa_utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/nesdis_edr_viirs.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/nesdis_eps_viirs.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/nesdis_frp.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/sat/__pycache__/utility.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/monetio/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "monetio",
+  "sha256": "20cfd9d23a038974eedb3f76a60c2e1bd3b70d630d44583b0729f3ae07274aa1",
+  "size": 157990,
+  "subdir": "noarch",
+  "timestamp": 1585683201113,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/monetio-0.1-pyh9f0ad1d_1.tar.bz2",
+  "version": "0.1"
+}

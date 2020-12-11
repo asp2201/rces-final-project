@@ -1,0 +1,13 @@
+prefix=/home/jovyan/rces-final-project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.10
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/home/jovyan/rces-final-project/env/lib -licui18n -licuuc -licudata -lpthread -L/home/jovyan/rces-final-project/env/lib -lz -L/home/jovyan/rces-final-project/env/lib -llzma -L/home/jovyan/rces-final-project/env/lib -liconv -lm  
+Cflags: -I${includedir}/libxml2 -I/home/jovyan/rces-final-project/env/include 

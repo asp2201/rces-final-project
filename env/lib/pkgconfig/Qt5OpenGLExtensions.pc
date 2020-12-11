@@ -1,0 +1,14 @@
+prefix=/home/jovyan/rces-final-project/env
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 OpenGLExtensions
+Description: Qt OpenGLExtensions module
+Version: 5.12.9
+Libs: -L${libdir} -lQt5OpenGLExtensions 
+Libs.private: -L/home/jovyan/rces-final-project/env/lib -L/home/jovyan/rces-final-project/env/x86_64-conda-linux-gnu/sysroot/usr/lib64 /home/jovyan/rces-final-project/env/lib/libQt5Gui.so /home/jovyan/rces-final-project/env/lib/libQt5Core.so -lpthread /home/jovyan/rces-final-project/env/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libGL.so   
+Cflags: -DQT_OPENGLEXTENSIONS_LIB -I${includedir}/QtOpenGLExtensions -I${includedir}
+Requires: Qt5Core Qt5Gui
+
